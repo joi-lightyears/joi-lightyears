@@ -1,4 +1,6 @@
-[![MasterHead](https://i.ibb.co/t47g3kp/fly-with-me.png)]
+<p align="center">
+  <img src="https://i.ibb.co/t47g3kp/fly-with-me.png">
+</p>
 <h1 align="center">Hi 👋, I'm Joi Lightyears</h1>
 <h3 align="center">A programmer and a student from VietNam</h3>
 
