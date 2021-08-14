@@ -1,4 +1,4 @@
-[![MasterHead](https://ibb.co/s20ntk9)](https://khushboogoel01.github.io)
+[![MasterHead](https://i.ibb.co/t47g3kp/fly-with-me.png)]
 <h1 align="center">Hi 👋, I'm Joi Lightyears</h1>
 <h3 align="center">A programmer and a student from VietNam</h3>
 
