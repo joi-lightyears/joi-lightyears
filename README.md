@@ -33,8 +33,11 @@
 ---
 
 <!--[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=joi-lightyears)](https://github.com/anuraghazra/github-readme-stats)-->
+<!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)-->
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api?username=joi-lightyears&show_icons=true&theme=tokyonight" alt="Joi's Github Stats" /></p>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joi-lightyears&layout=compact&show_icons=true&theme=tokyonight" alt="Joi's Github Stats" /></p>
 
 <!--<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=joi-lightyears&show_icons=true&locale=en" alt="joi-lightyears" /></p>-->
 
