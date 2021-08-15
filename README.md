@@ -8,7 +8,8 @@
 
 <p align="left"> <a href="https://twitter.com/joi_lightyears" target="blank"><img src="https://img.shields.io/twitter/follow/joi_lightyears?logo=twitter&style=for-the-badge" alt="joi_lightyears" /></a> </p>
 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
+<!--<img align="right" alt="Coding" src="https://s6.gifyu.com/images/1c52ad6349a6c1433f29663964d4d6ab.gif">-->
+[![1c52ad6349a6c1433f29663964d4d6ab.md.gif](https://s6.gifyu.com/images/1c52ad6349a6c1433f29663964d4d6ab.md.gif)](https://gifyu.com/image/y1ei)
 
 - 🔭 I’m currently working on [Student management system](https://github.com/joi-lightyears/student_management_system)
 
