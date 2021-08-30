@@ -70,9 +70,9 @@
 #### Github Stats
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=joi-lightyears&show_icons=true&theme=tokyonight" alt="Joi's Github Stats" /></p>
-
+<!--
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joi-lightyears&layout=compact&show_icons=true&theme=tokyonight" alt="Joi's Github Stats" /></p>
-
+-->
 </details>
 
 <!--
