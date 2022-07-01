@@ -61,19 +61,16 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=joi-lightyears&label=Profile%20views&color=0e75b6&style=flat" alt="joi-lightyears" /> </p>
 
-<details>
+<!-- <details>
 <summary>
   Stats
 </summary>
 <br >
-<!--
 #### Github Stats
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=joi-lightyears&show_icons=true&theme=tokyonight" alt="Joi's Github Stats" /></p> -->
-<!--
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=joi-lightyears&show_icons=true&theme=tokyonight" alt="Joi's Github Stats" /></p>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joi-lightyears&layout=compact&show_icons=true&theme=tokyonight" alt="Joi's Github Stats" /></p>
--->
-</details>
+</details> -->
 
 <!--
 [reactplaylist]: https://www.youtube.com/watch?v=KxXXEL-k47Y&list=PLvXDmnBbOF7RnYiZvDwl2Pzcs2kfi10wd
