@@ -1,6 +1,6 @@
-<img align="right" alt="gif" src="https://media.giphy.com/media/jBTvNwIjTy3N7YFQ6z/giphy.gif">
+<!-- <img align="right" alt="gif" src="https://media.giphy.com/media/jBTvNwIjTy3N7YFQ6z/giphy.gif"> -->
 
-## Hi I'm Joi
+## Hi I'm Thanh Dat (Joi)
 <!-- ## Hi I'm Joi <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="28px" alt="hi"> -->
 
 <!--I'm Joi Lightyears a Full Stack Web Developer. I spend most of time coding outstanding projects or recording tutorials.
@@ -24,6 +24,8 @@
 <!-- TODO: Make technologies links takes you to repositories -->
 
 [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![GraphQL Badge](https://img.shields.io/badge/-GraphQl-e535ab?style=for-the-badge&labelColor=black&logo=node.js&logoColor=e535ab)](#)
+
+<a href="https://app.daily.dev/joitaro"><img src="https://api.daily.dev/devcards/4ffee3970bc344e4ba3e31795043fe21.png?r=u6w" width="400" alt="Thành Đạt's Dev Card"/></a>
 <!--
 ### Tutorials
 
@@ -58,7 +60,6 @@
 - :paperclip: [My Resume/CV](https://github.com/ipenywis/ipenywis/blob/master/resumes/resume%20v1.0.pdf)
 - :email: ipenywis@gmail.com
 -->
-
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=joi-lightyears&label=Profile%20views&color=0e75b6&style=flat" alt="joi-lightyears" /> </p>
 
