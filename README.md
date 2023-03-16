@@ -17,7 +17,7 @@
 - 📫 How to reach me: nguyenthanhdat1412joitaro@gmail.com.
 - 😄 Pronouns: Joi, Joitaro.
 - ⚡ Fun fact: I love the vibes of cyberpunk.
-
+- my portfolio: https://nguyenthanhdat.vercel.app/
 #### Top Technologies
 
 <!-- TODO: Make technologies links takes you to repositories -->
