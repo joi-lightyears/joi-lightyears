@@ -11,14 +11,13 @@
 [![Twitter Badge](https://img.shields.io/badge/-@Ipenywis-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Ipenywis)](https://twitter.com/Ipenywis) [![Mail Badge](https://img.shields.io/badge/-CoderOne-e74c3c?style=flat&labelColor=e74c3c&logo=youtube&logoColor=white)](https://youtube.com/coderone) [![Linkedin Badge](https://img.shields.io/badge/-Islem-0e76a8?style=flat&labelColor=0e76a8&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/islem-maboud/) [![Mail Badge](https://img.shields.io/badge/-@islempenywis-e84393?style=flat&labelColor=e84393&logo=instagram&logoColor=white)](https://instagram.com/islempenywis) [![Mail Badge](https://img.shields.io/badge/-islempenywis-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:islempenywis@gmail.com)-->
 
 <!-- TODO: Add last video link -->
-<!--
-- 🔭 I’m currently working at @Toptal
+
+- 🔭 I’m currently studying at Ho Chi Minh city University of Transport
 - :computer: Most used line of code `git commit -m "Initial Commit"`
-- 🤔 I’m looking for help with Outstanding Video ideas.
-- 📫 How to reach me: islempenywis@gmail.com.
-- 😄 Pronouns: CoderOne, Ipenywis, islempenywis.
-- ⚡ Fun fact: I play games and go to the GYM very often.
--->
+- 📫 How to reach me: nguyenthanhdat1412joitaro@gmail.com.
+- 😄 Pronouns: Joi, Joitaro.
+- ⚡ Fun fact: I love the vibes of cyberpunk.
+
 #### Top Technologies
 
 <!-- TODO: Make technologies links takes you to repositories -->
@@ -27,6 +26,8 @@
 <!-- [![GraphQL Badge](https://img.shields.io/badge/-GraphQl-e535ab?style=for-the-badge&labelColor=black&logo=node.js&logoColor=e535ab)](#) -->
 
 <a href="https://app.daily.dev/joitaro"><img src="https://api.daily.dev/devcards/4ffee3970bc344e4ba3e31795043fe21.png?r=1qa" width="400" alt="Thanh Dat's Dev Card"/></a>
+
+
 <!--
 ### Tutorials
 
@@ -61,6 +62,7 @@
 - :paperclip: [My Resume/CV](https://github.com/ipenywis/ipenywis/blob/master/resumes/resume%20v1.0.pdf)
 - :email: ipenywis@gmail.com
 -->
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=joi-lightyears&label=Profile%20views&color=0e75b6&style=flat" alt="joi-lightyears" /> </p>
 
