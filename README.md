@@ -13,7 +13,7 @@
 <!-- TODO: Add last video link -->
 
 - 🔭 I’m currently studying at Ho Chi Minh city University of Transport
-- :computer: Most used line of code `git commit -m "Initial Commit"`
+- :computer: Most used line of code `git commit -m "project init"`
 - 📫 How to reach me: nguyenthanhdat1412joitaro@gmail.com.
 - 😄 Pronouns: Joi, Joitaro.
 - ⚡ Fun fact: I love the vibes of cyberpunk.
