@@ -34,11 +34,11 @@ jobs:
           git push
 
           # Update the README with the badge
-          echo '<a align="left" href="$ROADMAP_SH_URL"><img src="roadmap-badge.svg" alt="roadmap.sh"/></a>' > new_readme.md
-          cat README.md >> new_readme.md
-          mv new_readme.md README.md
+          # echo '<a align="left" href="$ROADMAP_SH_URL"><img src="roadmap-badge.svg" alt="roadmap.sh"/></a>' > new_readme.md
+          # cat README.md >> new_readme.md
+          # mv new_readme.md README.md
 
           # Commit the updated README to the repository
-          git add README.md
-          git commit -m "Update README with roadmap badge [skip ci]"
-          git push
+          # git add README.md
+          # git commit -m "Update README with roadmap badge [skip ci]"
+          # git push
