@@ -1,0 +1,30 @@
+name: Update Roadmap Badge
+
+on:
+  schedule:
+    # Set the schedule for how often you want the badge to be updated (e.g., every day at 00:00 UTC).
+    - cron: '0 0 * * *'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: Get latest data from roadmap.sh
+        id: fetch-data
+        run: |
+          curl -s https://api.roadmap.sh/v1-badge/tall/64bce9c08b7b0932737deff9?variant=dark > roadmap-badge.svg
+          LATEST_LINK=$(curl -s https://api.roadmap.sh/v1/badge-link/64bce9c08b7b0932737deff9)
+          echo "LATEST_LINK=${LATEST_LINK}" >> $GITHUB_ENV
+
+      - name: Update README with latest badge and link
+        run: |
+          README_FILE=README.md
+          BADGE_LINE='<a align="left" href="https://roadmap.sh"><img src="roadmap-badge.svg" alt="roadmap.sh"/></a>'
+          LATEST_LINK=$(echo $LATEST_LINK | sed 's/\//\\\//g') # Escape forward slashes in the link
+          sed -i "s/<a align=\"left\" href=\".*\"><img src=\".*\" alt=\"roadmap.sh\"\/><\/a>/$BADGE_LINE/g" $README_FILE
+          sed -i "s#<a align=\"left\" href=\"https://roadmap.sh\">.*</a>#<a align=\"left\" href=\"$LATEST_LINK\">roadmap.sh</a>#g" $README_FILE
+        env:
+          LATEST_LINK: ${{ steps.fetch-data.outputs.LATEST_LINK }}
