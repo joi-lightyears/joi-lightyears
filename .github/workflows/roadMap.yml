@@ -22,7 +22,7 @@ jobs:
       - name: Get latest data from roadmap.sh
         id: fetch-data
         run: |
-          curl -s https://api.roadmap.sh/v1-badge/tall/64bce9c08b7b0932737deff9?variant=dark > roadmap-badge.svg
+          curl -s https://api.roadmap.sh/v1-badge/tall/64bce9c08b7b0932737deff9?variant=dark > $GITHUB_WORKSPACE/roadmap-badge.svg
           LATEST_LINK=$(curl -s https://api.roadmap.sh/v1/badge-link/64bce9c08b7b0932737deff9)
           echo "LATEST_LINK=${LATEST_LINK}" >> $GITHUB_ENV
 
