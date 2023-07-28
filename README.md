@@ -1,3 +1,4 @@
+<a align="left" href="$ROADMAP_SH_URL"><img src="roadmap-badge.svg" alt="roadmap.sh"/></a>
 <a align="left" href="$ROADMAP_SH_URL"><img src="roadmap-badge.png" alt="roadmap.sh"/></a>
 <!-- <img align="right" alt="gif" src="https://media.giphy.com/media/jBTvNwIjTy3N7YFQ6z/giphy.gif"> -->
 
