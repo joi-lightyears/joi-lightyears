@@ -24,17 +24,17 @@ jobs:
           ROADMAP_SH_URL: "https://roadmap.sh"
         run: |
           # Download the badge image
-          wget -qO roadmap-badge.png $ROADMAP_BADGE_URL
+          wget -qO roadmap-badge.svg $ROADMAP_BADGE_URL
 
           # Commit the badge image to the repository
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add roadmap-badge.png
+          git add roadmap-badge.svg
           git commit -m "Update roadmap badge [skip ci]"
           git push
 
           # Update the README with the badge
-          echo '<a align="left" href="$ROADMAP_SH_URL"><img src="roadmap-badge.png" alt="roadmap.sh"/></a>' > new_readme.md
+          echo '<a align="left" href="$ROADMAP_SH_URL"><img src="roadmap-badge.svg" alt="roadmap.sh"/></a>' > new_readme.md
           cat README.md >> new_readme.md
           mv new_readme.md README.md
 
