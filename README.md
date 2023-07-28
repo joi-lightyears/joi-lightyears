@@ -1,5 +1,4 @@
-<a align="left" href="$ROADMAP_SH_URL"><img src="roadmap-badge.svg" alt="roadmap.sh"/></a>
-<a align="left" href="$ROADMAP_SH_URL"><img src="roadmap-badge.png" alt="roadmap.sh"/></a>
+
 <!-- <img align="right" alt="gif" src="https://media.giphy.com/media/jBTvNwIjTy3N7YFQ6z/giphy.gif"> -->
 
 ## Hi I'm Thanh Dat (Joi)
@@ -28,7 +27,7 @@
 <!-- [![GraphQL Badge](https://img.shields.io/badge/-GraphQl-e535ab?style=for-the-badge&labelColor=black&logo=node.js&logoColor=e535ab)](#) -->
 
 <a align="right" href="https://app.daily.dev/joitaro"><img src="https://api.daily.dev/devcards/4ffee3970bc344e4ba3e31795043fe21.png?r=1qa" width="290" alt="Thanh Dat's Dev Card"/></a>
-<a align="left" href="https://roadmap.sh"><img src="https://api.roadmap.sh/v1-badge/tall/64bce9c08b7b0932737deff9?variant=dark" alt="roadmap.sh"/></a>
+<a align="left" href="$ROADMAP_SH_URL"><img src="roadmap-badge.svg" alt="roadmap.sh"/></a>
 
 <!--
 ### Tutorials
