@@ -15,6 +15,9 @@ jobs:
   update_roadmap:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Update Roadmap
         env:
           ROADMAP_BADGE_URL: "https://api.roadmap.sh/v1-badge/tall/64bce9c08b7b0932737deff9?variant=dark"
