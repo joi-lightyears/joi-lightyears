@@ -1,37 +1,37 @@
-name: Update Roadmap Badge
-
-permissions:
-  contents: write
+name: Update Roadmap
 
 on:
-  workflow_dispatch:
+workflow_dispatch:
   push:
     branches:
       - main
   schedule:
-    # Set the schedule for how often you want the badge to be updated (e.g., every day at 00:00 UTC).
-    - cron: '0 0 * * *'
-
+    - cron: "0 0 * * *"
 jobs:
-  update-readme:
+  update_roadmap:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the repository
-        uses: actions/checkout@v2
-
-      - name: Get latest data from roadmap.sh
-        id: fetch-data
-        run: |
-          curl -s https://api.roadmap.sh/v1-badge/tall/64bce9c08b7b0932737deff9?variant=dark > $GITHUB_WORKSPACE/roadmap-badge.svg
-          LATEST_LINK=$(curl -s https://api.roadmap.sh/v1/badge-link/64bce9c08b7b0932737deff9)
-          echo "LATEST_LINK=${LATEST_LINK}" >> $GITHUB_ENV
-
-      - name: Update README with latest roadmap badge and link
-        run: |
-          README_FILE=README.md
-          BADGE_LINE='<a align="left" href="https://roadmap.sh"><img src="roadmap-badge.svg" alt="roadmap.sh"/></a>'
-          LATEST_LINK=$(echo $LATEST_LINK | sed 's/\//\\\//g') # Escape forward slashes in the link
-          sed -i "s@<a align=\"left\" href=\".*\"><img src=\".*\" alt=\"roadmap.sh\"/></a>@$BADGE_LINE@g" $README_FILE
-          sed -i "s#<a align=\"left\" href=\"https://roadmap.sh\">.*</a>#<a align=\"left\" href=\"$LATEST_LINK\">roadmap.sh</a>#g" $README_FILE
+      - name: Update Roadmap
         env:
-          LATEST_LINK: ${{ steps.fetch-data.outputs.LATEST_LINK }}
+          ROADMAP_BADGE_URL: "https://api.roadmap.sh/v1-badge/tall/64bce9c08b7b0932737deff9?variant=dark"
+          ROADMAP_SH_URL: "https://roadmap.sh"
+        run: |
+          # Download the badge image
+          wget -qO roadmap-badge.png $ROADMAP_BADGE_URL
+
+          # Commit the badge image to the repository
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add roadmap-badge.png
+          git commit -m "Update roadmap badge [skip ci]"
+          git push
+
+          # Update the README with the badge
+          echo '<a align="left" href="$ROADMAP_SH_URL"><img src="roadmap-badge.png" alt="roadmap.sh"/></a>' > new_readme.md
+          cat README.md >> new_readme.md
+          mv new_readme.md README.md
+
+          # Commit the updated README to the repository
+          git add README.md
+          git commit -m "Update README with roadmap badge [skip ci]"
+          git push
