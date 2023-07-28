@@ -1,6 +1,13 @@
 name: Update Roadmap Badge
 
+permissions:
+  contents: write
+
 on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
   schedule:
     # Set the schedule for how often you want the badge to be updated (e.g., every day at 00:00 UTC).
     - cron: '0 0 * * *'
