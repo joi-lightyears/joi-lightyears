@@ -26,12 +26,12 @@ jobs:
           LATEST_LINK=$(curl -s https://api.roadmap.sh/v1/badge-link/64bce9c08b7b0932737deff9)
           echo "LATEST_LINK=${LATEST_LINK}" >> $GITHUB_ENV
 
-      - name: Update README with latest badge and link
+      - name: Update README with latest roadmap badge and link
         run: |
           README_FILE=README.md
           BADGE_LINE='<a align="left" href="https://roadmap.sh"><img src="roadmap-badge.svg" alt="roadmap.sh"/></a>'
           LATEST_LINK=$(echo $LATEST_LINK | sed 's/\//\\\//g') # Escape forward slashes in the link
-          sed -i "s/<a align=\"left\" href=\".*\"><img src=\".*\" alt=\"roadmap.sh\"\/><\/a>/$BADGE_LINE/g" $README_FILE
+          sed -i "s@<a align=\"left\" href=\".*\"><img src=\".*\" alt=\"roadmap.sh\"/></a>@$BADGE_LINE@g" $README_FILE
           sed -i "s#<a align=\"left\" href=\"https://roadmap.sh\">.*</a>#<a align=\"left\" href=\"$LATEST_LINK\">roadmap.sh</a>#g" $README_FILE
         env:
           LATEST_LINK: ${{ steps.fetch-data.outputs.LATEST_LINK }}
