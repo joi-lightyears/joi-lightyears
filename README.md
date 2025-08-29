@@ -13,7 +13,7 @@
 
 <!-- TODO: Add last video link -->
 
-- 🔭 I’m currently studying at Ho Chi Minh city University of Transport
+- 🔭 Crafting sleek, responsive, and futuristic web interfaces
 - :computer: Most used line of code `git commit -m "project init"`
 - 📫 How to reach me: nguyenthanhdat1412joitaro@gmail.com.
 - 😄 Pronouns: Joi, Joitaro.
