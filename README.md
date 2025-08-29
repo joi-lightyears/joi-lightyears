@@ -14,11 +14,11 @@
 <!-- TODO: Add last video link -->
 
 - 🔭 Crafting sleek, responsive, and futuristic web interfaces
-- :computer: Most used line of code `git commit -m "project init"`
+- 🌐 My portfolio: [thanhdatnguyen.com](https://thanhdatnguyen.com)
 - 📫 How to reach me: nguyenthanhdat1412joitaro@gmail.com.
+- :computer: Most used line of code `git commit -m "project init"`
 - 😄 Pronouns: Joi, Joitaro.
 - ⚡ Fun fact: I love the vibes of cyberpunk.
-- 🌐 My portfolio: [thanhdatnguyen.com](https://thanhdatnguyen.com)
 #### Top Technologies
 
 <!-- TODO: Make technologies links takes you to repositories -->
