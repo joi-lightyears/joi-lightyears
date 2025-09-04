@@ -13,12 +13,7 @@
 
 <!-- TODO: Add last video link -->
 
-- 🔭 Crafting sleek, responsive, and futuristic web interfaces
-- 🌐 My portfolio: [thanhdatnguyen.com](https://thanhdatnguyen.com)
-- 📫 How to reach me: nguyenthanhdat1412joitaro@gmail.com.
-- :computer: Most used line of code `git commit -m "project init"`
-- 😄 Pronouns: Joi, Joitaro.
-- ⚡ Fun fact: I love the vibes of cyberpunk.
+Crafting sleek, responsive, and futuristic web interfaces
 #### Top Technologies
 
 <!-- TODO: Make technologies links takes you to repositories -->
