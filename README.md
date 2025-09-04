@@ -1,7 +1,7 @@
 
 <!-- <img align="right" alt="gif" src="https://media.giphy.com/media/jBTvNwIjTy3N7YFQ6z/giphy.gif"> -->
 
-## Hi I'm Thanh Dat (Joi)
+<!-- ## Hi I'm Thanh Dat (Joi) -->
 <!-- ## Hi I'm Joi <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="28px" alt="hi"> -->
 
 <!--I'm Joi Lightyears a Full Stack Web Developer. I spend most of time coding outstanding projects or recording tutorials.
@@ -51,8 +51,7 @@ Crafting sleek, responsive, and futuristic web interfaces
 
 <img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />
 -->
-<br />
-<br />
+
 <!--
 #### Bizness
 - :paperclip: [My Resume/CV](https://github.com/ipenywis/ipenywis/blob/master/resumes/resume%20v1.0.pdf)
